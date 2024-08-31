@@ -1,11 +1,32 @@
-<h3 align="center">Islamic Quran Discord Bot ,</h3>
+![QuranBot](https://your-image-link-here.com)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=8o80&label=Profile%20views&color=0e75b6&style=flat" alt="8o80" /> </p>
+<hr>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://discord.gg/e9Dayq6Ngs" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="e9Dayq6Ngs" height="30" width="40" /></a>
-</p>
+# Quran Bot • Discord Bot for Recurring Athkar Messages
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
+All features:
+- Schedule recurring Athkar messages in specified channels
+- Role-based access control for scheduling and cancelling Athkar
+- Supports flexible intervals (seconds, minutes, hours, days)
+- Admin command to cancel scheduled Athkar
+- Integrated with MySQL for data storage and retrieval
+- Easy configuration with `config.js`
+- Secure and scalable MySQL connection pooling
+
+<hr>
+
+# Install Guide
+
+## 1. Configuring Quran Bot
+
+### Requirements
+- Node.js and npm installed on your system
+- MySQL server installed and running
+
+### Installation Steps
+
+<strong>1.1</strong> Clone the repository and navigate to the project folder:
+
+```bash
+git clone https://github.com/8O80/quran-bot.git
+cd quran-bot
